@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    width: 400px;
+    margin: 40px auto;
+}
+ul li{
+    margin: 7px;
+}
+
+a{
+   display: inline-block;
+   padding: 5px;
+   color: chartreuse;
+   font-size: 24px;
+  
+}
+/* a[href]{
+    background-color: #1856e8;
+} */
+
+/* a[href*="www"]{
+    background-color: #1856e8;
+}
+ */
+
+/* a[href^="https"]{
+    background-color: #1856e8;
+}
+ */
+
+[ecoin]{
+    background-color:red;
+ }

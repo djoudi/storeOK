@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ok{
+    width: 400px;
+    height: auto;
+    margin: 50px auto;
+    display: flex;
+    background: gray;
+    
+    flex-wrap:wrap;
+}
+
+.b1,.b2,.b3,.b4{
+display: flex;
+flex-basis: 200px;
+max-height: 150px;
+
+}
+
+img{
+    width: 100%;
+}
+
+.center,.center img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+   
+
+}
+.center img:hover{
+    background-color: transparent;
+    opacity: 0.6;
+}
+
+.center{
+    position: relative;
+    bottom: 277px;
+    left: 41%;
+}
